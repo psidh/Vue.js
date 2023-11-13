@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-import Profile from './components/Profile.vue'
 
 </script>
 
@@ -18,8 +17,6 @@ import Profile from './components/Profile.vue'
       </nav>
     </div>
   </header>
-
-  <Profile />
 </template>
 
 <style scoped>
